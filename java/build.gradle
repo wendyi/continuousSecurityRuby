@@ -6,3 +6,9 @@ sourceCompatibility = 1.8
 task clean << {
   println "Cleaning"
 }
+
+
+task dependencyCheck(type: Exec) {
+  executable "sh"
+  args "-c", "dependency-check --project Social Recipes --scan lib/**"
+}
