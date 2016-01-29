@@ -10,5 +10,5 @@ task clean << {
 
 task dependencyCheck(type: Exec) {
   executable "sh"
-  args "-c", "dependency-check --project Social Recipes --scan lib/**"
+  args "-c", "/usr/local/bin/dependency-check --project Social Recipes --scan lib/**"
 }
