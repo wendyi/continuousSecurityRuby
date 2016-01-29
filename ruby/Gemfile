@@ -1,4 +1,12 @@
-source :rubygems
+# NOTE: this is temporary until Bundler 2.0
+# changes how github: references work.
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
+source "https://rubygems.org"
 
 gem "rake"
 gem "rspec"
+gem "bundler-audit"
