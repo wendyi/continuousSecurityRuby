@@ -12,10 +12,19 @@ buildscript {
   }
 }
 
+sourceSets {
+	main {
+		java {
+			srcDir 'src/main'
+		}
+	}
+	test {
+		java {
+			srcDir 'src/test'
+		}
+	}
+}
+
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'org.owasp.dependencycheck'
-
-task clean << {
-  println "Cleaning"
-}
