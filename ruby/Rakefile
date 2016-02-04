@@ -22,6 +22,14 @@ namespace :bundle_audit do
   end
 end
 
+begin
+  require 'rspec/core/rake_task'
+  RSpec::Core::RakeTask.new(:spec) do |t|
+    t.pattern = 'src/spec/**{,/*/**}/*_spec.rb'
+  end
+rescue LoadError
+end
+
 task :dependency_check do
   Rake::Task['bundle_audit:run'].invoke
 end
