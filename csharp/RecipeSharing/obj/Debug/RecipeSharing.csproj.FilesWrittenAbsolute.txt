@@ -1,0 +1,12 @@
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/RecipeSharing.dll.mdb
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/RecipeSharing.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/obj/Debug/RecipeSharing.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/obj/Debug/RecipeSharing.dll.mdb
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/Microsoft.Web.Infrastructure.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/System.Web.Razor.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/System.Web.Helpers.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/System.Web.WebPages.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/System.Web.WebPages.Deployment.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/System.Web.WebPages.Razor.dll
+/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing/bin/System.Web.Mvc.dll

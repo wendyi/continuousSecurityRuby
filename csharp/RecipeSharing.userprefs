@@ -1,0 +1,29 @@
+﻿<Properties StartupItem="RecipeSharing/RecipeSharing.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RecipeSharing.sln.proj">
+    <Files>
+      <File FileName="RecipeSharing.Tests/Controllers/HomeControllerTest.cs" Line="1" Column="1" />
+      <File FileName="RecipeSharing/packages.config" Line="1" Column="1" />
+      <File FileName="RecipeSharing.Tests/packages.config" Line="1" Column="1" />
+      <File FileName="RecipeSharing/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="RecipeSharing.Tests/Model/Recipe/RecipeTest.cs" Line="1" Column="1" />
+      <File FileName="build.gradle" Line="35" Column="7" />
+      <File FileName="vulnerableCheckSuppresion.xml" Line="1" Column="1" />
+      <File FileName="RecipeSharing/Web.config" Line="1" Column="1" />
+      <File FileName="RecipeSharing.sln.proj" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Solution Items" expanded="True">
+            <Node name="/Users/wendyistvanick/Data/src/conference talks/security/csharp/RecipeSharing.sln.proj" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
