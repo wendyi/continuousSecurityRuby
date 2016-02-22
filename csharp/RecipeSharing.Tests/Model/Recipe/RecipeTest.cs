@@ -1,4 +1,4 @@
-using NUnit.Framework;
+using Xunit;
 using RecipeSharing;
 
 
@@ -7,7 +7,7 @@ namespace RecipeSharing.Tests
 {
 	public class RecipeTest
 	{
-		[Test]
+		[Fact]
 		public void ShouldPass() {
 			var receipe = new Recipe();
 			Assert.True(1==1);
