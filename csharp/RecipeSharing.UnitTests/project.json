@@ -3,10 +3,11 @@
         "Microsoft.AspNet.Mvc": "6.0.0-beta4",
         "jQuery.UI.Combined": "1.8.20.1",
         "nunit": "3.0.0",
-        "NUnitLite": "3.0.0-*"
+        "NUnitLite": "3.0.0-*",
+        "RecipeSharing": ""
     },
     "commands": {
-        "test": "RecipeSharing.UnitTests"
+        "test": "run"
     },
     "frameworks": {
         "dnxcore50": {
@@ -21,7 +22,3 @@
         }
     }
 }
-
-
-
-
