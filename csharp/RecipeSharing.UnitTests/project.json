@@ -1,6 +1,6 @@
 {
     "dependencies": {
-                    "System.Collections": "4.0.10-beta-*",
+            "System.Collections": "4.0.10-beta-*",
             "System.Collections.Concurrent": "4.0.0-beta-*",
             "System.Collections.Specialized": "4.0.0-beta-*",
             "System.Diagnostics.Debug": "4.0.10-beta-*",
