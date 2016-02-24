@@ -1,5 +1,8 @@
-java/.gradle/*
 **/.DS_Store
 **/bin
 **/obj
 **/project.lock.json
+csharp/.gradle/*
+csharp/build/*
+csharp/packages/*
+java/.gradle/*
