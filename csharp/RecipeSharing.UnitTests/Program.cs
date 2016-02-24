@@ -6,14 +6,17 @@ namespace RecipeSharing.UnitTests
 {
 	class Program
 	{
-		public static void Main (string[] args)
+		public static int Main (string[] args)
 		{
-				#if DNX451
-				new AutoRun().Execute(args);
-				#else
-				new AutoRun().Execute(typeof(Program).GetTypeInfo().Assembly, Console.Out, Console.In, args);
-				#endif
-			}
+			//var result;
+			#if DNX451
+				return new AutoRun().Execute(args);
+				//Console.Write(result);
+			#else
+				return new AutoRun().Execute(typeof(Program).GetTypeInfo().Assembly, Console.Out, Console.In, args);
+				//Console.Out.Out(result);
+			#endif
+		}
 
 	}
 }
