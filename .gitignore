@@ -1,3 +1,4 @@
 java/.gradle/*
 **/.DS_Store
 **/bin
+**/obj
