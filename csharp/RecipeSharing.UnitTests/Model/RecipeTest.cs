@@ -11,7 +11,7 @@ namespace RecipeSharing.Tests
 		[Test]
 		public void ShouldPass() {
 			var receipe = new Recipe();
-			Assert.True(1==2);
+			Assert.True(1==1);
 		}
 	}
 }
