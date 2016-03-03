@@ -27,6 +27,7 @@ begin
   namespace :spec do
     RSpec::Core::RakeTask.new(:unit) do |t|
       t.pattern = 'src/spec/**{,/*/**}/*_spec.rb'
+      t.rspec_opts = ['--format h', '--out reports/tests/index.html']
     end
   end
 rescue LoadError
