@@ -1,5 +1,5 @@
 package com.thoughtworks.recipe;
 
 public enum Diet {
-	VEGAN	
+	VEGAN, VEGETARIAN	
 }
