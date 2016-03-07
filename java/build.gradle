@@ -42,3 +42,9 @@ dependencyCheck {
     failBuildOnCVSS=1
     suppressionFile='vulnerableCheckSuppression.xml'
 }
+
+task findSecrets (type:Exec) {
+   workingDir '.'
+ 
+  commandLine "bash", "-c", "../talisman.sh | ../talisman > talisman.out"
+}
