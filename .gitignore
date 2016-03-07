@@ -6,4 +6,3 @@ csharp/.gradle/*
 csharp/build/*
 csharp/packages/*
 java/.gradle/*
-go/*
