@@ -1,9 +1,11 @@
 {
+    "version": "1.0.0",
     "dependencies": {
         "Microsoft.AspNet.Mvc": "6.0.0-beta4",
-        "jQuery.UI.Combined": "1.10.1",
-        "nunit": "3.0.0",
-        "NUnitLite": "3.0.0-*",
+        "jQuery.UI.Combined": "1.10.1"
+    },
+    "commands": {
+        "web": "run"
     },
     "frameworks": {
         "dnxcore50": {

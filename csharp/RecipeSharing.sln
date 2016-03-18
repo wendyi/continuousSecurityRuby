@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeSharing", "RecipeSharing\RecipeSharing.csproj", "{174E497C-F2C9-46F5-9901-30C8F2F96EB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeSharing", "src\RecipeSharing\RecipeSharing.csproj", "{174E497C-F2C9-46F5-9901-30C8F2F96EB4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC0542EA-588E-458E-BB58-2D910A313A17}"
 	ProjectSection(SolutionItems) = preProject
@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		project.json = project.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeSharing.UnitTests", "RecipeSharing.UnitTests\RecipeSharing.UnitTests.csproj", "{9CB9740A-5017-4C46-A440-00B0ED6FD1D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeSharing.UnitTests", "test\RecipeSharing.UnitTests\RecipeSharing.UnitTests.csproj", "{9CB9740A-5017-4C46-A440-00B0ED6FD1D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

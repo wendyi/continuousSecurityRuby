@@ -1,4 +1,4 @@
 {
-  "projects": ["RecipeSharing", "RecipeSharing.UnitTests"],
+  "projects": ["src", "test"],
   "packages": "packages"
 }

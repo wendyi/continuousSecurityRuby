@@ -5,4 +5,5 @@
 csharp/.gradle/*
 csharp/build/*
 csharp/packages/*
+csharp/**/Scripts/*
 java/.gradle/*
