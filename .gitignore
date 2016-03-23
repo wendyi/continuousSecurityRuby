@@ -7,3 +7,8 @@ csharp/build/*
 csharp/packages/*
 csharp/**/Scripts/*
 java/.gradle/*
+java/java.iml
+java/java.ipr
+java/java.iws
+java/talisman.out
+java/build

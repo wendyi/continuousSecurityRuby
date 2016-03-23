@@ -46,5 +46,5 @@ dependencyCheck {
 task findSecrets (type:Exec) {
    workingDir '.'
  
-  commandLine "bash", "-c", "../talisman.sh | ../talisman > talisman.out"
+   commandLine "bash", "-c", "../talisman.sh | /usr/local/bin/talisman > talisman.out"
 }
