@@ -9,6 +9,6 @@ public class IngredientTest {
 		Ingredient celery = new Ingredient(IngredientType.VEGETABLE);
 
 		// then
-		celery.ShouldBe(Diet.VEGAN);
+		assert(celery.isPartOfDiet(Diet.VEGAN));
 	}
 }
