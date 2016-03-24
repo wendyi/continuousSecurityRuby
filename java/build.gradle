@@ -50,7 +50,7 @@ task changePermissions (type:Exec) {
    commandLine 'bash', '-c', 'chmod +x ../talisman.sh'
 }
 
-task findSecrets (type:Exec) {
+task findSecrets (type:Exec, dependsOn: changePermissions) {
    workingDir '.'
 
    doFirst {
