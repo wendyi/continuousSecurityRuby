@@ -44,8 +44,14 @@ dependencyCheck {
     suppressionFile='vulnerableCheckSuppression.xml'
 }
 
-task findSecrets (type:Exec) {
+task changePermissions (type:Exec) {
    workingDir '.'
- 
+
+   commandLine 'bash', '-c', 'chmod +x ../talisman.sh'
+}
+
+task findSecrets (type:Exec, dependsOn: changePermissions) {
+   workingDir '.'
+
    commandLine "bash", "-c", "../talisman.sh | /usr/local/bin/talisman > build/reports/talisman.txt"
 }
