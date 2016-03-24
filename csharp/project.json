@@ -41,8 +41,8 @@
             "System.Xml.XDocument": "4.0.0-beta-*",
             "System.Xml.XmlSerializer": "4.0.0-beta-*",
             "Microsoft.AspNet.Mvc": "6.0.0-beta4",
-        "nunit": "3.0.0",
-        "NUnitLite": "3.0.0-*"
+            "NUnitLite": "3.0.0-*",
+            "nunit": "3.0.0"
     },
     "commands": {
         "test": "RecipeSharing.UnitTests"

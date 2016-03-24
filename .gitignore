@@ -5,6 +5,7 @@
 csharp/.gradle/*
 csharp/build/*
 csharp/packages/*
+csharp/test/RecipeSharing.UnitTests/tests.txt
 csharp/**/Scripts/*
 java/.gradle/*
 java/java.iml
