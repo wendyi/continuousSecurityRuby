@@ -53,5 +53,9 @@ task changePermissions (type:Exec) {
 task findSecrets (type:Exec, dependsOn: changePermissions) {
    workingDir '.'
 
-   commandLine "bash", "-c", "../talisman.sh | /usr/local/bin/talisman > build/reports/talisman.txt"
+   doFirst {
+        standardOutput = new FileOutputStream('build/reports/talisman.txt')
+   }
+   
+   commandLine "bash", "-c", "../talisman.sh | /usr/local/bin/talisman"
 }
