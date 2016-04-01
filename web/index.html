@@ -1,0 +1,30 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+<title>Recipe Sharing</title>
+
+<input name="C#" id="btn_c" value="C#" type="submit" />
+<script>
+    $('#btn_c').click(function(){
+        $.post('/language/C-Sharp', '', function(data, status) {
+        	alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+</script>
+ 
+<input name="Java" id="btn_java" value="Java" type="submit" />
+<script>
+   $('#btn_java').click(function(){
+        $.post('/language/Java', '', function(data, status) {
+        	alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+</script>
+
+<input name="Ruby" id="btn_ruby" value="Ruby" type="submit" />
+<script>
+    $('#btn_ruby').click(function(){
+        $.post('/language/Ruby', '', function(data, status) {
+        	alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+</script>
