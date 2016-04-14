@@ -8,6 +8,6 @@ public class Ingredient {
     }
 
     public boolean isPartOfDiet(Diet diet) {
-        return true;
+        return diet.allows(ingredientType);
     }
 }

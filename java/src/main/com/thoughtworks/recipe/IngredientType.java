@@ -1,5 +1,5 @@
 package com.thoughtworks.recipe;
 
 public enum IngredientType {
-	VEGETABLE, MEAT	
+	VEGETABLE, FRUIT, MEAT
 }
