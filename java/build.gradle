@@ -5,6 +5,10 @@ apply plugin: 'org.owasp.dependencycheck'
 
 sourceCompatibility = 1.8
 
+ext {
+	suppressionFileName = ""
+}
+
 buildscript {
 	repositories {
 		mavenCentral()
@@ -39,12 +43,21 @@ sourceSets {
 	}
 }
 
-task vulnerableComponents (dependsOn: 'dependencyCheck') {}
+task vulnerableComponents(dependsOn: ['dependencyCheck']) {
+}
+
+task vulnerableComponentsWithWhitelist (dependsOn: ['setSuppressionFile', 'dependencyCheck']) {
+}
+
+task setSuppressionFile() {
+	println "file"
+	suppressionFileName="src/vulnerableCheckSuppression.xml"
+}
 
 dependencyCheck {
     autoUpdate=true
     failBuildOnCVSS=1
-    suppressionFile='vulnerableCheckSuppression.xml'
+	suppressionFile=suppressionFileName
 }
 
 task changePermissions (type:Exec) {
