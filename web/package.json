@@ -16,6 +16,7 @@
     "url": "https://github.com/wendyi/continuousSecurity/issues"
   },
   "homepage": "https://github.com/wendyi/continuousSecurity#readme",
-  "devDependencies": {
+  "dependencies": {
+    "jquery" : "latest"
   }
 }

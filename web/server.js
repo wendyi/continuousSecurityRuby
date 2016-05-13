@@ -4,7 +4,7 @@ path = require("path"),
 url = require("url"),
 filesys = require("fs");
 my_http.createServer(function(request,response){
-    console.log(request.url);
+   console.log(request.url);
     if (request.method === 'POST') {
         console.log("POST");
         var body = '';
@@ -27,22 +27,31 @@ my_http.createServer(function(request,response){
     {
         console.log("GET");
         var my_path = url.parse(request.url).pathname;
+        if (my_path === '/') {
+            my_path = '/index.html'
+        }
+        console.log(my_path);
         var full_path = path.join(process.cwd(),my_path);
+        console.log(full_path);
         filesys.exists(full_path,function(exists){
             if(!exists){
+                console.log("!EXISTS")
                 response.writeHeader(404, {"Content-Type": "text/plain"});  
                 response.write("404 Not Found\n");  
                 response.end();
             }
             else{
+                console.log("EXISTS")
                 filesys.readFile(full_path, "binary", function(err, file) {  
                      if(err) {  
+                         console.log("ERR")  
                          response.writeHeader(500, {"Content-Type": "text/plain"});  
                          response.write(err + "\n");  
                          response.end();  
                     
                      }  
                      else{
+                        console.log("!ERR")  
                         response.writeHeader(200);  
                         response.write(file, "binary");  
                         response.end();
